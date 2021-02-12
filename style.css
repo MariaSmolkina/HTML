@@ -1,0 +1,604 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 360px;
+    background-color: #f5f5f5;
+    position: relative;
+}
+
+.product-detail {
+    height: 120px;
+    position: relative;
+}
+
+.header {
+    padding-top: 63px;
+}
+
+.menu {
+    float: right;
+}
+
+.menu-list,
+.products-list,
+.product-detail-list {
+    float: left;
+    list-style-type: none;
+}
+
+.product-detail-list {
+    padding: 18px;
+}
+
+.bolt {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.product-detail-link {
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6c6c6c;
+    text-decoration: none;
+}
+
+.product-detail-link-active {
+    text-decoration: none;
+    color: #212121;
+}
+
+.menu-link {
+    font-weight: 300;
+    color: #8c8c8c;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 13px;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    color: #212121;
+}
+
+.menu-link-active {
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    color: #212121;
+    border-bottom: 2px solid #212121;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+}
+
+.slider-text {
+    margin-top: 170px;
+}
+
+.slider-trending {
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: 100;
+    color: #212121;
+    letter-spacing: -0.05em;
+}
+
+.addresses {
+    height: 565px;
+    position: relative;
+}
+
+.address {
+    width: 368px;
+    height: 368px;
+    float: left;
+    outline: 1px solid #d9dee1;
+    margin-right: 22px;
+    margin-top: 73px;
+}
+
+.address:hover {
+    outline: 1px solid #212121;
+}
+
+.address {
+    text-align: center;
+}
+
+img[id="geo-point1"], img[id="geo-point2"],img[id="geo-point3"] {
+    width: 36px;
+    height: 45px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.h-location {
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212121;
+    padding-bottom: 15px;
+}
+
+.phone {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #6c6c6c;
+    letter-spacing: -0.05em;
+}
+
+.b-phone {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #212121;
+    letter-spacing: -0.05em;
+}
+
+.address-text {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #6c6c6c;
+    letter-spacing: -0.05em;
+}
+
+.footer {
+    height: 384px;
+    background-color: #f7f7f7;
+    position: relative;
+}
+
+.footer-h {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #6c6c6c;
+}
+
+.contacts,
+.text-suscribtion {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #212121;
+    margin-top: 24px;
+    letter-spacing: -0.05em;
+}
+
+.text-suscribtion {
+    width: 370px;
+    text-align: justify;
+}
+
+.footer-block-contacts {
+    float: left;
+    margin-top: 120px;
+    width: 220px;
+}
+
+.footer-block-information {
+    float: left;
+    margin-left: 80px;
+    margin-top: 120px;
+    width: 420px;
+}
+
+.footer-block-suscribption {
+    float: left;
+    margin-left: 80px;
+    margin-top: 120px;
+    width: 365px;
+}
+
+.scd {
+    list-style-type: none;
+    float: left;
+    margin-top: 24px;
+}
+
+.ace {
+    padding-left: 235px;
+    list-style-type: none;
+    margin-top: 24px;
+}
+
+.scd-links,
+.ace-links {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #212121;
+}
+
+.scd-links:hover {
+    background-color: #c7c7c7;
+}
+
+.ace-links:hover {
+    background-color: #c7c7c7;
+}
+
+input[id="email"] {
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 200;
+    color: #6c6c6c;
+    display: inline-block;
+    width: 354px;
+    height: 48px;
+    background-color: #ffffff;
+    border: 1px solid #d9dee1;
+    margin-top: 25px;
+    padding-left: 16px;
+    position: absolute;
+}
+
+input[id="btn"] {
+    background-image: url(img/letter-button.png);
+    width: 22px;
+    height: 17px;
+    border: none;
+    float: right;
+    position: relative;
+    border: none;
+    margin-top: 39px;
+}
+
+.f-text,
+.f-text-link {
+    font-size: 12px;
+    line-height: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #6c6c6c;
+    text-decoration: none;
+}
+
+.footer-text {
+    position: absolute;
+    bottom: 35px;
+}
+
+.social {
+    position: absolute;
+    bottom: 30px;
+    margin-left: 520px
+}
+
+.policy {
+    position: absolute;
+    bottom: 35px;
+    margin-left: 820px
+}
+
+.products-range-interior {
+    height: 1950px;
+    position: relative;
+}
+
+.products-list {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: #6c6c6c;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.products-list-active {
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: #212121;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+.border-bottom-active {
+    border-bottom: 3px solid #212121;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #6c6c6c;
+}
+
+.products {
+    margin-top: 70px;
+}
+
+img[alt="tp"] {
+    outline: 1px solid none;
+    width: 370px;
+    height: 370px;
+}
+
+img[alt="tp"]:hover {
+    outline: 1px solid #212121;
+}
+
+.trending-table-el {
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.products-table {
+    margin-top: 48px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-image: url(img/trending_button.png);
+    border-radius: 20px;
+    margin: 60px;
+}
+
+.circle-active {
+    width: 41px;
+    height: 29px;
+    margin-bottom: 0;
+}
+
+.pagination {
+    position: absolute;
+    width: 1170px;
+    text-align: center;
+}
+
+.promos {
+    height: 683px;
+    position: relative;
+}
+
+.promo {
+    width: 683px;
+    height: 683px;
+}
+
+.promo-text {
+    margin-left: 50px;
+    position: absolute;
+    top: 228px;
+}
+
+.promo-content {
+    font-size: 14.1px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #6c6c6c;
+    width: 370px;
+    letter-spacing: -0.05em;
+}
+
+.promo1 {
+    background-image: url(img/promo_img1.jpg);
+    position: absolute;
+}
+
+.promo2 {
+    background-image: url(img/promo_img_2.jpg);
+    margin-left: 683px;
+}
+
+.button2 {
+    margin-top: 30px;
+    color: #212121;
+    font-size: 18px;
+    width: 212px;
+    height: 45px;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.34);
+    border-radius: 22.5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 46px;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+.button2:active {
+    background-color: #c7c7c7;
+}
+
+.exclusive-trending {
+    font-size: 18px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #1e88e5;
+}
+
+.products-range {
+    height: 70px;
+    background-color: #f4f4f4;
+}
+
+.hot-deal {
+    height: 860px;
+    position: relative;
+    margin-top: 70px;
+}
+
+img[id="chair"] {
+    width: 570px;
+    height: 570px;
+}
+
+.chair {
+    float: left;
+}
+
+.chair-text {
+    margin-top: 40px;
+    float: right;
+    width: 510px;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.chair-pad-img li {
+    list-style-type: none;
+    float: left;
+    padding-right: 10px;
+}
+
+.chair-pad-img {
+    margin-left: 145px;
+}
+
+.chair-h1 {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212121;
+}
+
+.hot-deal-h {
+    font-size: 18.1px;
+    line-height: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #e53935;
+}
+
+.price {
+    font-family: Gotham;
+    font-size: 36.1px;
+    line-height: 48px;
+    font-weight: 300;
+    color: #212121;
+    text-align: center;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.chair-descr {
+    font-size: 16.1px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #212121;
+    text-align: left;
+}
+
+.button3 {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-size: 22px;
+    width: 510px;
+    height: 71px;
+    background-color: #f44336;
+    box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.34);
+    border-radius: 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 70px;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+.button3:active {
+    background-color: #c7c7c7;
+}
+
+.price1{
+    float: left;
+}
+.b-price {
+    font-family: Gotham;
+    font-size: 72.1px;
+    text-transform: uppercase;
+    line-height: 48px;
+    font-weight: 300;
+    color: #212121;
+    float:left;
+    margin-top: -10px;
+}
+
+.trending {
+    height: 600px;
+}
+
+.trending-header {
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #212121;
+    float: left;
+    padding-bottom: 52px;
+}
+
+.explore-all-link {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #212121;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 52px;
+}
+
+.explore-all-link:hover {
+    font-size: 19px;
+}
+
+.trending-table-el {
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
